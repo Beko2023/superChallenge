@@ -1,5 +1,5 @@
-import propertyForSaleArr from '/properties/propertyForSaleArr'
-import placeholderPropertyObj from '/properties/placeholderPropertyObj'
+import propertyForSaleArr from '/properties/propertyForSaleArr.js'
+import placeholderPropertyObj from '/properties/placeholderPropertyObj.js'
 
 function getPropertyHtml(propertyArr = [placeholderPropertyObj]) {
     return propertyArr.map(property => {
